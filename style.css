@@ -10,8 +10,7 @@ Description: Customify is fast, lightweight, responsive and super flexible multi
 Tags: custom-background,custom-logo,custom-menu,featured-images,flexible-header,footer-widgets,full-width-template,sticky-post,theme-options,threaded-comments,translation-ready,one-column,two-columns,three-columns,left-sidebar,right-sidebar,e-commerce,blog
 Version: 0.3.6.1616578375
 */
-@import url("../customify-child/style.css");
-/*@import url("../manual-child/customstyle.css");*/
+
 
 /*Footer and widget*/
 h4.widget-title{
@@ -40,6 +39,7 @@ a.text-uppercase {
 	border-bottom:solid;
 	border-top:solid;
 	border-width:3px;
+	background-color: white;
 	text-align:center;
 }
 
@@ -53,30 +53,24 @@ a.text-uppercase {
 	color: #e74c3c;
 }
 
-/* Adjusting Store Category header*/
-div.page-cover-inner{
-	text-align:right;
-	margin-bottom:-30px;
-	margin-top:-12px;
-	Color:white;
-}
 
 .wc-product-inner{
 	width:70%;
 }
 
-h1.page-cover-title {
- text-align:center;
+a.pm-dbfl{
 	color:black;
-	padding-top:20px;
-	padding-bottom:20px;
 }
 
-#page-cover:before{
-	background-color:transparent;
-	border-bottom:1px;
-	border-bottom:solid;
-	border-bottom-color:black;
+.pg-alert-warning.pg-alert-info{
+	background-color:indianred;
+	color:black;
+	text-align:center;
+}
+
+.pmagic .pm-group-blog-post-notice:before{
+	color:red;
+	background-color:red;
 }
 
 .twitterimg{
@@ -102,3 +96,25 @@ font-size:50px;
 line-height:40px;
 margin:0 5px 0 0;
 }
+
+/*Old and Unused css code
+div.page-cover-inner{
+	text-align:right;
+	margin-bottom:-30px;
+	margin-top:-12px;
+	Color:white;
+}
+
+h1.page-cover-title {
+ text-align:center;
+	color:black;
+	padding-top:20px;
+	padding-bottom:20px;
+}
+
+#page-cover:before{
+	background-color:transparent;
+	border-bottom:1px;
+	border-bottom:solid;
+	border-bottom-color:black;
+}*/
